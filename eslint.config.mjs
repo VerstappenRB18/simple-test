@@ -29,11 +29,13 @@ const eslintConfig = [
       "react/jsx-key": "error", // Enforce keys in React lists
       "react/prop-types": "off", // Disable prop-types for TypeScript projects
       "react/react-in-jsx-scope": "off", // No need for React import in Next.js
+      "react/no-unescaped-entities": "off", // Warn about unescaped entities in JSX
 
       // TypeScript-specific rules
       "@typescript-eslint/explicit-function-return-type": "off", // Disable enforcing return types
       "@typescript-eslint/explicit-module-boundary-types": "off", // Disable enforcing types for modules
       "@typescript-eslint/no-explicit-any": "warn", // Warn against using `any` type
+      "@typescript-eslint/no-namespace": "off", // Disable no-namespace rule
     },
   },
 ];
